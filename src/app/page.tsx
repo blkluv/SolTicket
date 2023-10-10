@@ -20,23 +20,26 @@ export default function Home() {
       <div id='hero-section'>
         <div className='grid grid-cols-1 md:grid-cols-12 items-center gap-5 h-full'>
           <div className='col-span-1 md:col-span-6'>
-            <p className='font-extrabold text-4xl text-primary'>With an NFT ticket, you can:</p>
+            <p className='font-extrabold text-4xl text-primary'>With an LUV NFT ticket, you can:</p>
             <Separator orientation='horizontal' className='my-5' />
             <ul className='my-6 ml-6 list-disc font-mono text-muted-foreground'>
               <li>
-                Prevent ticket scalping and fraud.
+                Prevent event ticket scalping and fraud.
               </li>
               <li>
-                Control the resale market and receive commissions from each transaction.
+                Allow your attendees to make money promoting your event.
               </li>
               <li>
-                Increase revenue and reduce costs for your event.
+                Receive commissions from each seconday ticket transaction.
               </li>
               <li>
-                Create exclusive and diverse experiences for customers.
+                Increase revenue and reduce costs for your event by removing middleman fees.
               </li>
               <li>
-                Build community and engagement with customers.
+                Create exclusive and diverse metaverse experiences for event attendees.
+              </li>
+              <li>
+                Build community and engagement with customers in our <a href="https://discord.gg/U72sPJ75cF">Discord</a>.
               </li>
             </ul>
             <Separator orientation='horizontal' className='my-5' />
