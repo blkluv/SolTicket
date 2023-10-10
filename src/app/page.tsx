@@ -41,21 +41,26 @@ export default function Home() {
             </ul>
             <Separator orientation='horizontal' className='my-5' />
             <strong className='text-primary text-xl'>
-              Hurry up!
+              Top up your Solana wallet
             </strong>
             <div className='text-muted-foreground font-mono h-10'>
               <Typical
                 steps={[
-                  "Join us to explore the new world of NFT tickets.", 1500,
-                  "You just need to register a free account and start creating your event.", 1500,
-                  "The number of NFT tickets is limited!", 1500
+                  "Click the Buy Solana button below", 1500,
+                  "Buy Solana with your debit card that will be sent to your Solana wallet.", 1500,
+                  "Return to soltix.luvnft.com and connect your Solana wallet", 1500
                 ]}
                 loop={Infinity}
                 wrapper="p"
               />
             </div>
             <div className='my-5 flex items-center justify-center'>
-              <Button className='p-8' variant={'default'}><strong className='font-extrabold text-xl'>Sign up now!</strong></Button>
+              {/* Add an anchor tag around the button text */}
+              <a href="https://crypto.link.com?ref=lb&destination_currency=sol&destination_network=solana" target="_blank" rel="noopener noreferrer">
+                <Button className='p-8' variant={'default'}>
+                  <strong className='font-extrabold text-xl'>Buy Solana</strong>
+                </Button>
+              </a>
             </div>
           </div>
           <div className='col-span-1 md:col-span-6 h-[500px] flex justify-center items-center'>

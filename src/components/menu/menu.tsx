@@ -50,11 +50,11 @@ const MobileMenu = () => {
     let greeting = "";
 
     if (currentHour < 12) {
-        greeting = "🌄Good morning";
+        greeting = "🌞 GM";
     } else if (currentHour < 18) {
-        greeting = "🌇Good afternoon";
+        greeting = "🌇 Good afternoon";
     } else {
-        greeting = "🌃Good evening";
+        greeting = "🌃 Good evening";
     }
 
     return (
@@ -66,7 +66,7 @@ const MobileMenu = () => {
             </SheetTrigger>
             <SheetContent className="w-11/12 md:w-[540px]">
                 <SheetHeader className="text-left">
-                    <SheetTitle><p className="text-2xl font-extrabold tracking-tighter lg:text-4xl text-primary underline shadow-transparent drop-shadow-md">Bapcai&apos;s Ticket</p></SheetTitle>
+                    <SheetTitle><p className="text-2xl font-extrabold tracking-tighter lg:text-4xl text-primary underline shadow-transparent drop-shadow-md">SolTix</p></SheetTitle>
                     <SheetDescription >
                         <div className="grid grid-flow-row grid-cols-12">
 
@@ -88,7 +88,7 @@ const MobileMenu = () => {
                                 <p className="text-base font-semibold text-foreground">Profile ~ <em className="text-muted-foreground text-xs font-serif">Your wallet profile information</em></p>
                             </Link>
                             <Link href={"/document"}>
-                                <p className="text-base font-semibold text-foreground">Document ~ <em className="text-muted-foreground text-xs font-serif">Document about BapCai platform</em></p>
+                                <p className="text-base font-semibold text-foreground">Document ~ <em className="text-muted-foreground text-xs font-serif">Document about SolTix platform</em></p>
                             </Link>
                             <Link href={"/create-event"}>
                                 <p className="text-base font-semibold text-foreground">Create Event ~ <em className="text-muted-foreground text-xs font-serif">You can create event here</em></p>
@@ -102,8 +102,8 @@ const MobileMenu = () => {
                         {/* <ContactDropDownMenu /> */}
                         <Separator className="my-4" />
                         <div className="fixed bottom-5 flex flex-row space-x-2 items-center">
-                            <Link href={"https://twitter.com/DatTranM4"} className="text-muted-foreground whitespace-nowrap" target="_blank">
-                                Dat Tran & ZTSH - <FontAwesomeIcon className="w-[16px] h-[16px] text-foreground" icon={faCopyright} /> - 2023</Link>
+                            <Link href={"https://luvnft.com/"} className="text-muted-foreground whitespace-nowrap" target="_blank">
+                                LUV NFT SolTix - <FontAwesomeIcon className="w-[16px] h-[16px] text-foreground" icon={faCopyright} /> - 2023</Link>
                         </div>
                     </div>
                 </ScrollArea>

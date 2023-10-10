@@ -6,7 +6,7 @@ export default function Header() {
         //Desktop and tablet header
         <header className="sticky backdrop-blur-md z-50 border-b border-current p-2 top-0 w-ful">
             <div className="container flex flex-row justify-between items-center">
-                <Link href="/"><p className="text-2xl font-extrabold tracking-tighter lg:text-5xl text-primary underline shadow-transparent drop-shadow-md">Bapcai&apos;s Ticket</p></Link>
+                <Link href="https://soltix.luvnft.com"><p className="text-2xl font-extrabold tracking-tighter lg:text-5xl text-primary underline shadow-transparent drop-shadow-md">SolTix</p></Link>
 
 
                 {/* <nav className="desktop-menu">
